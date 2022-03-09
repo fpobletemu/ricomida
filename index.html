@@ -20,6 +20,7 @@
       href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
       rel="stylesheet"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <title>Hola Patricia</title>
   </head>
@@ -50,145 +51,221 @@
         </div>
       </div>
     </nav>
-
     <!-- Fin Menu -->
 
     <!-- seccion 1 -->
-    <div class="container">
-      <div class="row">
-        <div class="col-6">
-          <img class="img-fluid" src="img/principal.jpg" alt="" />
-        </div>
-        <div class="col-6">
-          <div class="row">
-            <h1>Hola</h1>
+
+    <section id="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <img class="img-fluid" src="img/principal.jpg" alt="" />
           </div>
-          <div class="row">
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Doloremque eos, corporis sequi sit possimus inventore neque minima
-              dolore harum reiciendis molestias, recusandae illo, aut facere
-              rerum? Consectetur nostrum quos recusandae.
-            </p>
-          </div>
-          <div class="row">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-bs-container="body"
-              data-bs-toggle="popover"
-              data-bs-placement="top"
-              data-bs-content="Top popover"
-            >
-              Popover on top
-            </button>
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-bs-container="body"
-              data-bs-toggle="popover"
-              data-bs-placement="right"
-              data-bs-content="Right popover"
-            >
-              Popover on right
-            </button>
+          <div class="col-6">
+            <div class="row">
+              
+            </div>
+            <div class="row">
+              <h1>
+                PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES
+              </h1>
+              <hr>
+              <h5>110 MIN / 6 A 8 PORCIONES</h5>
+            </div>
+            <div class="row">
+              <div class="d-grid gap-2 d-md-block">
+  
+
+                <button type="button" class="btn btn-outline-dark" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Tarjeta abajo">
+                  Enviar por correo
+                </button>
+
+                <button type="button" class="btn btn-outline-dark" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Tarjeta derecha">
+                  Añadir a favoritos
+                </button>
+
+                
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
+
+    
 
     <!-- fin seccion 1 -->
 
     <!-- recetas -->
-    <div class="container">
-      <div class="row">
-        <div class="col-6">
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            atque quidem, quos, iure praesentium, qui dicta quasi officiis sit
-            eaque sint beatae saepe rerum. Quisquam voluptates animi ipsa ad
-            reprehenderit!
-          </p>
-        </div>
-        <div class="col-6">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi unde
-            porro iusto fuga voluptatibus ab! Deserunt neque, suscipit dolorem
-            rerum cupiditate odit debitis, earum quod deleniti totam vel velit
-            minus.
-          </p>
+    <section id="recetas">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <h1>Ingredientes</h1>
+            <p>
+              <h5>Masa</h5>  
+  
+              <ul class="list-unstyled">
+                <li>20 gr de levadura seca instantánea </li>
+                <li>1 cucharadita de azúcar </li>
+                <li>500 ml agua tibia </li>
+                <li>100 ml aceite vegetal </li>
+                <li>4 cucharadas de aceite de oliva </li> 
+                <li>65 gr harina de maíz fina (chuchoca) </li>
+                <li>2 cucharaditas de sal </li>
+                <li>625 gr harina </li>
+              </ul>
+              
+  
+              <h5>Salsa</h5> 
+              <ul class="list-unstyled">
+                <li>5 cucharadas de aceite de oliva </li>
+                <li>½ cebolla picada en cubos finos </li>
+                <li>2 cucharaditas de sal </li>
+                <li>3 cucharadas de Orégano Gourmet </li> 
+                <li>1 ½ cucharadas de Albahaca Gourmet </li>
+                <li>2 tarro de tomates en cubos al natural </li>
+                <li>2 cucharaditas de azúcar </li>
+              </ul>
+              
+              
+              <h5>Relleno</h5>
+              <ul class="list-unstyled">
+                <li> ½ cebolla, en cubos </li> 
+                <li> 500 gr hojas de espinacas picadas </li>
+                <li> 400 gr de champiñones, laminados </li>
+                <li> 300 gr de queso mozarella </li>
+                <li> 4 cucharadas queso parmesano </li>
+              </ul>
+              
+            </p>
+          </div>
+          <div class="col-6">
+            <h1>Preparación</h1>
+            <p>
+              1. Para la masa, disolver la levadura y el azúcar en agua tibia en
+              un bol grande. Dejar reposar 2 minutos. Agregar el aceite, la harina
+              de maíz, sal y 400gr de harina. Mezclar bien. Amasar y agregar el
+              resto de harina, la cantidad necesaria para tener una masa blanda.
+              Poner en el mesón y amasar por 5 minutos o hasta tener una masa lisa
+              y elástica (agregar harina en el mesón a medida que se va amasando
+              para que la masa no se pegue) . Poner la masa en un bol aceitado,
+              tapar con un paño de cocina limpio y dejar reposar hasta que la masa
+              duplique su volumen (leudar). Golpear la masa para que baje y luego
+              dejar leudar por 40 minutos adicionales.
+            </p>
+            <p>
+              2. Mientras tanto preparar la salsa: Calentar 4 cucharadas de aceite
+              en una olla a fuego medio. Agregar la cebolla, Orégano Gourmet,
+              Albahaca Gourmet, sal y cocinar hasta que la cebolla esté dorada.
+              Agregar el ajo y cocinar por 30 segundos. Agregar los tomates junto
+              al jugo del tarro, a la mezcla de cebolla. Agregar el azúcar y
+              cocinar hasta que la mezcla se haya reducido y espesado, como 30
+              minutos. Sazonar con sal y pimienta a gusto. Reservar.
+            </p>
+            <p>
+              Relleno: Cocinar las chalotas en el aceite de oliva hasta que estén
+              transparentes. Agregar los champiñones y las espinacas, cocinar
+              hasta que estén cocidos y se haya evaporado todo el líquido que
+              hayan votado los vegetales. Reservar.
+            </p>
+            <p>4. Calentar el horno a 220C.</p>
+            <p>
+              5. Una vez que la masa haya reposado, dividirla en dos bolas.
+              Estirar cada masa para cubrir dos moldes (desmontables) de 26 cm,
+              hacer un borde de 5 cm con la masa. Dividir el relleno entre las dos
+              pizza, tapar con el queso mozarella, luego terminar con la salsa de
+              tomates y finalmente espolvorear el queso rallado.
+            </p>
+            <p>
+              6. Hornear por 35 a 40 minutos o hasta que el relleno esté caliente
+              y la base esté esponjosa y dorada. Esperar unos minutos antes de
+              desmoldar.
+            </p>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
+    
     <!-- fin recetas -->
 
     <!-- cards -->
-    <div class="container">
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-          <div class="card h-100">
-            <img src="img/recipe-card-1.png" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="img/recipe-card-2.png" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                This card has supporting text below as a natural lead-in to
-                additional content.
-              </p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
+    <section id="cards">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/recipe-card-1.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="img/recipe-card-3.png" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This card has even longer content
-                than the first to show that equal height action.
-              </p>
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/recipe-card-2.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This card has supporting text below as a natural lead-in to
+                  additional content.
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
             </div>
-            <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/recipe-card-3.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This card has even longer content
+                  than the first to show that equal height action.
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
+    
 
     <!-- fin cards -->
 
     <!-- suscribete -->
-    <div id="suscribete" class="text-light">
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio,
-        asperiores sunt ab nemo inventore velit dolorum officia reiciendis
-        voluptates alias, perferendis dolorem in quo nobis repellendus, ea
-        distinctio illum veniam.
-      </p>
-      <button type="button" class="btn btn-outline-light align-middle">
-        Light
-      </button>
-    </div>
+    <section id="suscribete">
+      <div id="suscribete" class="text-light text-center">
+      
+        <div class="container">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio,
+            asperiores sunt ab nemo inventore velit dolorum officia reiciendis
+            voluptates alias, perferendis dolorem in quo nobis repellendus, ea
+            distinctio illum veniam.
+          </p>
+          <button type="button" class="btn btn-outline-light align-middle">
+            Light
+          </button>
+        </div>
+        
+      </div>
+    </section>
+    
 
     <!-- fin suscribete -->
 
@@ -229,5 +306,12 @@
       integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+      $(document).ready(function(){
+        $('[data-bs-toggle="popover"]').popover();
+      });
+      </script>
+
   </body>
 </html>
