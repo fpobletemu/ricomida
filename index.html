@@ -73,11 +73,31 @@
               </div>
               <div class="row">
                 <div class="d-grid gap-2 d-md-block">
-                
-                
-                  <button type="button" class="btn btn-outline-dark" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Presiona para enviar un tu correo">
+
+
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modalCorreo">
                     Enviar por correo
                   </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="modalCorreo" tabindex="-1" aria-labelledby="modalCorreoLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="modalCorreoLabel">Correo Enviado!</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                        </div>
+                        <div class="modal-body">
+                          Su correo ha sido enviado con exito. Puede cerrar esta ventana.
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Listo</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
                 
                   <button type="button" class="btn btn-outline-dark" data-bs-container="body" data-bs-toggle="tooltip" data-bs-placement="right" title="Agrega esta receta a tus favoritos">
                     Añadir a favoritos
