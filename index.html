@@ -62,9 +62,6 @@
             </div>
             <div class="col-6">
               <div class="row">
-
-              </div>
-              <div class="row">
                 <h1>
                   PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES
                 </h1>
@@ -109,7 +106,7 @@
             </div>
           </div>
 
-          <div class="row">
+          <div class="row d-none d-lg-block">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
                 
@@ -189,11 +186,11 @@
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
+                <span class="visually-hidden">Anterior</span>
               </button>
               <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
+                <span class="visually-hidden">Siguiente</span>
               </button>
             </div>
           </div>
@@ -204,11 +201,11 @@
       <!-- fin seccion 1 -->
       <hr>
       <!-- recetas -->
-      <section id="recetas">
-        <div class="container py-4">
+      <section id="recetas" class="d-flex flex-wrap justify-content-around">
+        <div class="container py-4 ">
           <div class="row">
-            <div class="col-6">
-              <u><h1>Ingredientes</h1></u> 
+            <div class="col-6 col-xs-12">
+              <u><h1 class="cambiar_color">Ingredientes</h1></u> 
               <p>
                 <h5>Masa</h5>  
               
@@ -247,8 +244,8 @@
 
               </p>
             </div>
-            <div class="col-6">
-              <u><h1>Preparación</h1></u>
+            <div class="col-6 col-xs-12">
+              <u><h1 class="cambiar_color">Preparación</h1></u>
               
               <p>
                 1. Para la masa, disolver la levadura y el azúcar en agua tibia en
@@ -353,9 +350,9 @@
     </div>
     <!-- suscribete -->
     <section id="suscribete">
-      <div id="suscribete" class="text-light text-center">
+      <div id="suscribete" class="text-light text-center ">
       
-        <div class="container py-4 ">
+        <div class="container py-5 ">
           <h1>SUSCRÍBETE EN NUESTRO NEWSLETTER</h1>
           <h2>y obtén las mejores recetas que tenemos en <a class="navbar-brand nav-font text-light" href="#">Ricomida</a></h2>
           <button type="button" class="btn btn-outline-light align-middle">
@@ -406,6 +403,14 @@
         return new bootstrap.Tooltip(tooltipTriggerEl)
       })
       </script>
+    <script>
+      // var block = $(".main");
+      $(".cambiar_color").on({
+    dblclick: function(){
+        $(this).css("color", "red");
+    }
+    });
+    </script>
 
   </body>
 </html>
